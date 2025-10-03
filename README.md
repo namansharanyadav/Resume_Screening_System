@@ -2,7 +2,7 @@
 
 This project is a Resume Job Recommendation System built using Python, Flask, Machine Learning, HTML, CSS, and Kaggle datasets. It categorizes resumes, extracts key information, and recommends suitable jobs using trained ML models.
 
-🚀 Features
+## 🚀 **Features**
 
 Resume categorization using trained ML models
 
@@ -14,7 +14,7 @@ Preprocessed datasets from Kaggle
 
 Modular structure with separate folders for datasets, models, templates, and backend
 
-📂 Project Structure
+## 📂 **Project Structure**
 ├── datasets/                     # Kaggle datasets (resumes, jobs, features)
 ├── models/                       # Trained ML models (pickle files)
 ├── templates/                    # HTML files for Flask frontend
@@ -27,42 +27,41 @@ Modular structure with separate folders for datasets, models, templates, and bac
 ├── Extracted info and hiring process.ipynb # Notebook for preprocessing & feature extraction
 └── README.md                     # Project documentation
 ⚙️ Installation & Setup
-1️⃣ Clone the repository
+
+## 1️⃣ **Clone the repository**
 git clone https://github.com/your-username/resume-job-recommendation-system.git
 cd resume-job-recommendation-system
 
-2️⃣ Create virtual environment
+## 2️⃣ **Create virtual environment**
 python -m venv venv
-3️⃣ Activate virtual environment
-On Windows
+## 3️⃣ **Activate virtual environment**
+**On Windows**
 venv\Scripts\activate
-On Linux/Mac:
+**On Linux/Mac:**
 source venv/bin/activate
-4️⃣ Install dependencies
+## 4️⃣ **Install dependencies**
 pip install -r requirements.txt
-▶️ Usage
-1️⃣ Run Flask app
+## ▶️ **Usage**
+## 1️⃣ **Run Flask app**
 
 python app.py
-2️⃣ Open in browser
+## 2️⃣ **Open in browser**
 
 Go to:
 http://127.0.0.1:5000/
-3️⃣ Upload Resume
+## 3️⃣ **Upload Resume**
 
 Upload a resume in text/PDF format
-
 The system will categorize it (e.g., Data Science, Web Development, etc.)
-
 It will recommend suitable jobs from the dataset
 
-📊 Datasets
+## 📊 **Datasets**
 
 We used Kaggle datasets for resumes and job postings:
 
 Kaggle Resume Dataset
 
-🧠 Machine Learning Models
+## 🧠 **Machine Learning Models**
 
 The ML models are stored in the models/ folder:
 
@@ -72,7 +71,7 @@ TF-IDF Vectorizer (tfidf_vectorizer_categorization.pkl)
 
 Job Recommendation Model (content-based filtering)
 
-🌐 Technologies Used
+## 🌐 **Technologies Used**
 
 Backend: Python, Flask
 
@@ -84,7 +83,7 @@ Data: Kaggle Datasets
 
 Deployment Ready: Can be deployed on Heroku / Render / AWS
 
-📌 Future Improvements
+## 📌 **Future Improvements**
 
 Add NLP-based deep learning model (BERT/Transformers)
 
@@ -92,6 +91,6 @@ Improve job recommendations with hybrid (content + collaborative) filtering
 
 Deploy as a full-stack application with user login
 
-👨‍💻 Contributors
+## 👨‍💻 **Contributors**
 
 Naman Sharan Yadav
