@@ -29,7 +29,7 @@ Modular structure with separate folders for datasets, models, templates, and bac
 ⚙️ Installation & Setup
 
 ## 1️⃣ **Clone the repository**
-git clone 
+git clone https://github.com/namansharanyadav/Resume_Screening_System/tree/main
 cd resume-job-recommendation-system
 
 ## 2️⃣ **Create virtual environment**
