@@ -1,4 +1,4 @@
-📌 **Resume Job Recommendation System**
+#📌 **Resume Job Recommendation System**
 
 This project is a Resume Job Recommendation System built using Python, Flask, Machine Learning, HTML, CSS, and Kaggle datasets. It categorizes resumes, extracts key information, and recommends suitable jobs using trained ML models.
 
